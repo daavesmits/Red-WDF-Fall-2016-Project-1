@@ -61,24 +61,25 @@
 
 }
 
-/*@font-face {
-    font-family: 'karla-regular';
-    src: url(font/Karla-Regular.ttf);
+/* Body styles */
+/* ---------------------------------- */
+
+h1 {
+  font-family: "pacificoregular", cursive;
 }
 
-@font-face {
-    font-family: karla-bold;
-    src: url(font/Karla-Bold.ttf);
-}
-
-@font-face {
-    font-family: pacifico;
-    src: url(font/Pacifico.ttf);
-}*/
-
-body {
+body,
+h2,
+th {
+  font-family: "karlabold", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #2d2d2d;
+}
+
+p,
+table,
+td {
+  font-family: "karlaregular", Helvetica, Arial, sans-serif;
 }
 
 /* Navbar styles */
@@ -114,8 +115,7 @@ nav {
 .navigation a {
   color: white;
   text-decoration: none;
-	font-family: "karlabold", Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	/*font-family: "karlabold", Helvetica, Arial, sans-serif;*/
 	font-variant: small-caps;
 }
 
@@ -190,7 +190,7 @@ nav {
 }
 
 .hero h1 {
-	font-family: "pacificoregular", cursive;
+	/*font-family: "pacificoregular", cursive;*/
 	color: white;
 	font-size: 2rem;
   z-index: 2;
@@ -206,7 +206,7 @@ nav {
 }
 
 .hero h2 {
-	font-family: "karlaregular", Helvetica, Arial, sans-serif;
+	/*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
 	color: white;
 	font-size: 12px;
 	line-height: 1;
@@ -226,7 +226,7 @@ span {
 }
 
 .ui-button {
-	font-family: "karlaregular", Helvetica, Arial, sans-serif;
+	/*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
 	font-size: 12px;
 	background-color: #e2574c;
 	color: #FFFFFF;
@@ -239,7 +239,7 @@ span {
 }
 
 .ui-button:hover {
-	font-family: "karlaregular", Helvetica, Arial, sans-serif;
+	/*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
 	font-size: 12px;
 	background-color: #b64036;
 	color: #FFFFFF;
@@ -279,7 +279,7 @@ section {
 }
 
 .text-container h1 {
-	font-family: "pacificoregular", cursive;
+	/*font-family: "pacificoregular", cursive;*/
 	color: #646464;
 	font-size: 1.75rem;
 	text-align: center;
@@ -287,7 +287,7 @@ section {
 }
 
 .text-container p {
-	font-family: "karlaregular", Helvetica, Arial, sans-serif;
+	/*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
   font-size: 10px;
 	text-align: center;
 	line-height: 2;
@@ -360,10 +360,13 @@ aside {
   margin: 25px 10px 0px 0px;
 }
 
+table {
+  width: 100%;
+}
 
 table, th, td {
     border: 1px solid lightgrey;
-    font-family: "karlaregular", Helvetica, Arial, sans-serif;
+    /*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
     font-size: 9px;
   	text-align: center;
   	color: black;
@@ -372,7 +375,7 @@ table, th, td {
 }
 
 th {
-  font-family: "karlabold", Helvetica, Arial, sans-serif;
+  /*font-family: "karlabold", Helvetica, Arial, sans-serif;*/
   background-color: #e6e6e6;
   line-height: 1.5;
 }
@@ -431,7 +434,7 @@ footer {
 	background-color: #242424;
   line-height: 1.5;
 	padding: 40px;
-  font-family: "karlaregular", Helvetica, Arial, sans-serif;
+  /*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
   font-size: 9px;
   color: white;
   display: flex;
