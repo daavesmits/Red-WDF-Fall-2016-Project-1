@@ -262,7 +262,7 @@ section {
 
 @media all and (min-width: 600px) {
   .text-container h1 {
-    font-size: 1.75rem;
+    font-size: 1.6rem;
     margin: 25px 0;
   }
   .text-container p {
@@ -305,14 +305,11 @@ section {
 
 .rentals-info {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .rentals-text p {
-  display: flex;
-  justify-content: flex-start;
   text-align: left;
   padding: 0px 20px 0px 10px;
   line-height: 1.75;
@@ -358,28 +355,19 @@ td {
 
 @media all and (min-width: 600px) {
   .rentals-info { /*Container*/
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
+    flex-flow: row;
   }
   .rentals-text p {
-    display: flex;
-    justify-content: flex-start;
-    text-align: left;
     padding: 0px 10px;
     width: 80%;
-    line-height: 1.5;
-  }
-
-  .rentals-text a {
-    color: #e2574c;
   }
   aside {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 10px;
+    padding: 0;
     width: 70%;
   }
+  table, th, td {
+    font-size: 9px;
+    line-height: 1.5;
 }
 
 /* Location styles */
@@ -391,6 +379,12 @@ iframe {
   display: flex;
   margin: 0 auto;
   padding: 20px 10px 30px 10px;
+}
+
+@media all and (min-width: 600px) {
+  iframe {
+    height: 150px;
+  }
 }
 
 /* Footer styles */
@@ -428,6 +422,8 @@ footer a {
 
 @media all and (min-width: 600px) {
   footer {
+    padding: 35px 20px;
+    font-size: 9px;
     flex-flow: nowrap row;
     justify-content: space-between;
     align-items: flex-start;
