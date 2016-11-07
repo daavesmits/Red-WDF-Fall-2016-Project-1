@@ -69,13 +69,13 @@ h1 {
 }
 
 body,
-h2,
 th {
   font-family: "karlabold", Helvetica, Arial, sans-serif;
   font-size: 16px;
   color: #2d2d2d;
 }
 
+h2,
 p,
 table,
 td {
@@ -145,38 +145,11 @@ nav {
 /* Hero Banner styles */
 /* ---------------------------------- */
 
-/*.hero {
-    position: relative;
-    background: #000000;
-    overflow: hidden;
-    padding: 110px 0 0px 0;
-    height: 30%;
-}
-.hero:before {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0.80;
-    background-image: url('image/kayak-bkgd.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-size: cover;
-}*/
-
 .hero {
   position: relative;
-  padding: 110px 0 0px 0;
-  height: 30%;
+  padding: 160px 0 0 0;
   display: block;
-  width: 100%;
-  height: 100%;
+  height: 30vh;
   z-index: 1;
   background:
     linear-gradient(
@@ -188,29 +161,23 @@ nav {
   background-size: cover;
 }
 
-.hero h1 {
-	/*font-family: "pacificoregular", cursive;*/
+.hero h1 { /*great outdoors from the water*/
 	color: white;
-	font-size: 2rem;
+	font-size: 3rem;
   z-index: 2;
   line-height: 1.5;
-  position: relative;
 }
 
-.hero .hero-subtitle {
-	font-size: 1.25rem;
-	margin-bottom: 20px;
-  z-index: 2;
-  position: relative;
+.hero .hero-subtitle { /*from the water*/
+  font-size: 2rem;
 }
 
-.hero h2 {
-	/*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
+.hero h2 { /*enjoy the // rent our canoes...*/
 	color: white;
-	font-size: 12px;
+  padding: 10px 0;
+	font-size: 1rem;
 	line-height: 1;
   z-index: 2;
-  position: relative;
   margin: 0 25px;
 }
 
@@ -218,36 +185,25 @@ span {
   display: block;
 	background-color: hsla(0, 0%, 0%, 0.5);
   line-height: 1.5;
-	margin: 0px 25px;
+	margin: 0px 10px;
   padding: 10px 10px;
   z-index: 2;
-  position: relative;
 }
 
 .ui-button {
-	/*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
-	font-size: 12px;
+	font-size: 1rem;
 	background-color: #e2574c;
 	color: #FFFFFF;
-	padding: 8px 8px;
+	padding: 12px 12px;
 	border-radius: 25px;
 	border: none;
 	margin: 20px;
   z-index: 2;
-  position: relative;
 }
 
 .ui-button:hover {
-	/*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
-	font-size: 12px;
 	background-color: #b64036;
-	color: #FFFFFF;
-	padding: 8px 8px;
-	border-radius: 25px;
-	border: none;
 	transition: 0.3s;
-  z-index: 2;
-  position: relative;
 }
 
 @media all and (min-width: 600px) {
