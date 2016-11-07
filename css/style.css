@@ -183,7 +183,7 @@ nav {
     linear-gradient(
       rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.50)
       ),
-    url('image/kayak-bkgd.jpg');
+    url('../image/kayak-bkgd.jpg');
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
