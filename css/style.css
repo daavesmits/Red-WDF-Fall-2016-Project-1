@@ -144,14 +144,15 @@ nav {
   }
 }
 
+
 /* Hero Banner styles */
 /* ---------------------------------- */
 
 header {
   position: relative;
-  padding: 160px 0 0 0;
+  padding: 140px 0;
   display: block;
-  height: 30%;
+  height: 40%;
   z-index: 1;
   background:
     linear-gradient(
@@ -257,7 +258,7 @@ section {
   font-size: 0.9rem;
 	text-align: center;
 	line-height: 2;
-	padding: 0px 5px;
+	padding: 0px 5px 50px 0;
 }
 
 @media all and (min-width: 600px) {
@@ -282,7 +283,7 @@ section {
 }
 
 .image-row img {
-  margin: 0px 5px;
+  margin: 5px 5px;
   width: 99%;
   box-shadow: 2px 2px 2px 2px #888888;
 }
@@ -368,6 +369,7 @@ td {
   table, th, td {
     font-size: 9px;
     line-height: 1.5;
+  }
 }
 
 /* Location styles */
@@ -378,7 +380,7 @@ iframe {
   width: 95%;
   display: flex;
   margin: 0 auto;
-  padding: 20px 10px 30px 10px;
+  padding: 0px 10px 30px 10px;
 }
 
 @media all and (min-width: 600px) {
@@ -444,3 +446,4 @@ footer a {
     display: flex;
     float: right;
   }
+}
