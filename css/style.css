@@ -61,6 +61,7 @@
 
 }
 
+
 /* Body styles */
 /* ---------------------------------- */
 
@@ -81,6 +82,7 @@ table,
 td {
   font-family: "karlaregular", Helvetica, Arial, sans-serif;
 }
+
 
 /* Navbar styles */
 /* ---------------------------------- */
@@ -144,6 +146,12 @@ nav {
   }
 }
 
+@media all and (min-width: 1140px) {
+  .logo img {
+  	width: 175px;
+  }
+}
+
 
 /* Hero Banner styles */
 /* ---------------------------------- */
@@ -164,18 +172,18 @@ header {
   background-size: cover;
 }
 
-header h1 { /*great outdoors from the water*/
+header h1 {
 	color: white;
 	font-size: 3rem;
   z-index: 2;
   line-height: 1.5;
 }
 
-header .hero-subtitle { /*from the water*/
+header .hero-subtitle {
   font-size: 2rem;
 }
 
-header h2 { /*enjoy the // rent our canoes...*/
+header h2 {
 	color: white;
   padding: 10px 0;
 	font-size: 1rem;
@@ -215,30 +223,40 @@ span {
     padding: 60px 0px 25px 0px;
   }
   header h1 {
-  	font-size: 3.5rem;
+    font-size: 3.25rem;
     line-height: 1.5;
   }
   header .hero-subtitle {
-  	font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   header h2 {
-  	font-size: 12px;
+    font-size: 12px;
   }
   span {
-  	display: inline;
-  	padding: 5px 2px;
+    display: inline;
+    padding: 5px 2px;
   }
   .ui-button {
-  	font-size: 0.7rem;
-  	padding: 8px 8px;
-  	border-radius: 25px;
+    font-size: 0.7rem;
+    padding: 8px 8px;
+    border-radius: 25px;
   }
   .ui-button {
-  	font-size: 0.7rem;
-  	padding: 8px 8px;
+    font-size: 0.7rem;
+    padding: 8px 8px;
+  }
+}
+
+  @media all and (min-width: 1140px) {
+    header h1 {
+      font-size: 3.5rem;
+    }
+    header .hero-subtitle {
+      font-size: 1.5rem;
+    }
   }
 
-}
+
 
 /* Content styles */
 /* ---------------------------------- */
@@ -272,6 +290,7 @@ section {
   }
 }
 
+
 /* About styles */
 /* ---------------------------------- */
 
@@ -300,6 +319,7 @@ section {
     height: 32%;
   }
 }
+
 
 /* Rentals styles */
 /* ---------------------------------- */
@@ -344,15 +364,10 @@ th {
   background-color: #e6e6e6;
 }
 
-td {
-  text-align: center;
-}
-
 .col-1 {
   text-align: left;
   padding: 0px 25px 0px 5px;
 }
-
 
 @media all and (min-width: 600px) {
   .rentals-info { /*Container*/
@@ -372,6 +387,7 @@ td {
   }
 }
 
+
 /* Location styles */
 /* ---------------------------------- */
 
@@ -388,6 +404,7 @@ iframe {
     height: 150px;
   }
 }
+
 
 /* Footer styles */
 /* ---------------------------------- */
