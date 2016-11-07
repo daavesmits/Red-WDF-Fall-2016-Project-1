@@ -235,16 +235,14 @@ section {
 }
 
 .text-container h1 {
-	/*font-family: "pacificoregular", cursive;*/
 	color: #646464;
-	font-size: 1.75rem;
+	font-size: 2.5rem;
 	text-align: center;
-	margin: 35px 0;
+	margin: 50px 0;
 }
 
 .text-container p {
-	/*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
-  font-size: 10px;
+  font-size: 0.9rem;
 	text-align: center;
 	line-height: 2;
 	padding: 0px 5px;
@@ -267,11 +265,11 @@ section {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  margin: 20px 5px 0px 0px;
+  margin: 0 10px;
 }
 
 .image-row img {
-  margin: 5px 5px;
+  margin: 5px;
   width: 99%;
   box-shadow: 2px 2px 2px 2px #888888;
 }
@@ -293,6 +291,7 @@ section {
 
 .rentals-info {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -301,7 +300,7 @@ section {
   display: flex;
   justify-content: flex-start;
   text-align: left;
-  padding: 0px 10px;
+  padding: 0px 20px 0px 10px;
   line-height: 1.75;
 }
 
@@ -311,29 +310,26 @@ section {
 
 aside {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
-  margin: 25px 10px 0px 0px;
+  padding: 25px 0px;
 }
 
 table {
-  width: 100%;
+  width: 95%;
 }
 
 table, th, td {
     border: 1px solid lightgrey;
-    /*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
-    font-size: 9px;
+    font-size: 0.9rem;
   	text-align: center;
   	color: black;
-    line-height: 1.5;
+    line-height: 2;
     padding: 5px;
 }
 
 th {
-  /*font-family: "karlabold", Helvetica, Arial, sans-serif;*/
   background-color: #e6e6e6;
-  line-height: 1.5;
 }
 
 td {
@@ -376,7 +372,7 @@ td {
 /* ---------------------------------- */
 
 iframe {
-  height: 150px;
+  height: 200px;
   width: 95%;
   display: flex;
   margin: 0 auto;
@@ -389,9 +385,8 @@ iframe {
 footer {
 	background-color: #242424;
   line-height: 1.5;
-	padding: 40px;
-  /*font-family: "karlaregular", Helvetica, Arial, sans-serif;*/
-  font-size: 9px;
+	padding: 50px 0 25px 0;
+  font-size: 0.75rem;
   color: white;
   display: flex;
   flex-flow: column;
