@@ -146,7 +146,7 @@ nav {
 /* Hero Banner styles */
 /* ---------------------------------- */
 
-.hero {
+header {
   position: relative;
   padding: 160px 0 0 0;
   display: block;
@@ -162,18 +162,18 @@ nav {
   background-size: cover;
 }
 
-.hero h1 { /*great outdoors from the water*/
+header h1 { /*great outdoors from the water*/
 	color: white;
 	font-size: 3rem;
   z-index: 2;
   line-height: 1.5;
 }
 
-.hero .hero-subtitle { /*from the water*/
+header .hero-subtitle { /*from the water*/
   font-size: 2rem;
 }
 
-.hero h2 { /*enjoy the // rent our canoes...*/
+header h2 { /*enjoy the // rent our canoes...*/
 	color: white;
   padding: 10px 0;
 	font-size: 1rem;
@@ -208,17 +208,17 @@ span {
 }
 
 @media all and (min-width: 600px) {
-  .hero {
+  header {
     height: 30%;
     padding: 75px 0px 25px 0px;
   }
-  .hero h1 {
+  header h1 {
   	font-size: 3.5rem;
   }
-  .hero .hero-subtitle {
+  header .hero-subtitle {
   	font-size: 1.5rem;
   }
-  .hero h2 {
+  header h2 {
   	font-size: 12px;
   }
   span {
